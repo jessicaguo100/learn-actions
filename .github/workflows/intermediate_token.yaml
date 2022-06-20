@@ -15,13 +15,13 @@ jobs:
         with:
           args: comment "Thanks for your issue! we are going to work on that"
   assignme:
-    name: Assign lizre
+    name: Assign jessicaguo100
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      - name: Assign lizre
+      - name: Assign jessicaguo100
         uses: actions/github@v1.0.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          args: assign @lizre
+          args: assign @jessicaguo100
