@@ -12,9 +12,9 @@ on:
 
 jobs:
   
-  authenticate-with-token:
-    runs-on: macOS-latest
-    name: authenticate with GITHUB_TOKEN
+  # authenticate-with-token:
+  #   runs-on: macOS-latest
+  #   name: authenticate with GITHUB_TOKEN
 
 
 
