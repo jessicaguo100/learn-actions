@@ -31,7 +31,7 @@ jobs:
       - name: Run some R code to make a .txt file
         run: |
           mkdir -p data/my_file1.txt
-          Rscript -e 'writeLines("text_lines", "my_file3.txt")'
+          Rscript -e 'write("text_lines",file="my_file3.txt",append=TRUE)'
       
       - name: Commit and push file(s)
         run: |
