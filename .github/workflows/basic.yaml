@@ -47,7 +47,7 @@ jobs:
       - name: Make a temporary object, an artifact
         run: |
           mkdir -p data/artifact
-          echo hello > data/world.txt
+          echo hello >> data/world.txt
       
       - name: Upload artifact, to persist for 365 days
         uses: actions/upload-artifact@v2
